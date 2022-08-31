@@ -26,5 +26,4 @@ app.get('/test', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-c
 app.listen(PORT, () => console.log(`API ready port: ${PORT} ...`));
